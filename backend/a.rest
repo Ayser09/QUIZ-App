@@ -1,0 +1,21 @@
+POST http://localhost:4000/api/users
+Content-Type: application/json
+
+{
+    "firstname":"test",
+    "lastname":"this",
+    "email":"test@gmail.com",
+    "password":"Password123@"
+
+}
+
+
+###
+
+POST http://localhost:4000/api/auth
+Content-Type: application/json
+
+{
+    "email":"test@gmail.com",
+    "password":"Password123@"
+}
