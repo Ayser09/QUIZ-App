@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+  }
+
+  .quiz-box {
+    width: 90%;
+    height: 60vh;
+    text-align: center;
+  }
+
+  .quiz-title {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: white;
+  }
+  .question-card {
+    margin: 0 auto;
+    border-radius: 16px;
+    background: gray;
+    color: white;
+    width: 70%;
+    padding: 16px;
+    margin-top: 1rem;
+  }
+  .quiz-step-title {
+    font-size: 1.8rem;
+    padding: 14px;
+  }
+  .questions {
+    font-size: 1.6rem;
+    padding: 16px;
+    color: black;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    background: darkgray;
+    padding: 16px;
+    width: 95%;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 8px;
+    cursor: pointer;
+  }
+  li:hover {
+    opacity: 0.8;
+  }
+
+  /* Final Result Styling */
+
+  .final-result {
+    margin: 0 auto;
+    border-radius: 16px;
+    background: gray;
+    color: white;
+    width: 30%;
+    height: auto;
+    padding: 16px;
+    margin-top: 1rem;
+  }
+
+  .restart-btn {
+    border: none;
+    border-radius: 50px;
+    padding: 16px 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: tomato;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+  }
+  .restart-btn:focus {
+    outline: none;
+  }
+
+  .restart-btn:hover {
+    opacity: 0.8;
+  }
